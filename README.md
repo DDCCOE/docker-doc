@@ -14,7 +14,7 @@ Before writing the document, what you should know,
 
 All above knowledge could be found from [github help page](https://help.github.com).
 
-## Directories under docker-doc
+## Directory layout
 
 * admin - Docker and container administration skills.
 
