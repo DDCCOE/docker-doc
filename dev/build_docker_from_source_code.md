@@ -47,9 +47,9 @@ For Docker source code build, we can follow the instructions in this document:
 
 	* vi Dockerfile, and modify it with following lines,
 
-		\#RUN go get golang.org/x/tools/cmd/cover
+		<pre>#RUN go get golang.org/x/tools/cmd/cover
 		ADD tools /go/src/golang.org/x/tools
-		RUN go install golang.org/x/tools/cmd/cover
+		RUN go install golang.org/x/tools/cmd/cover</pre>
 
 4. golang.org could bot be accessed outside the company
 
