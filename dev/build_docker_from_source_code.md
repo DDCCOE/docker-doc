@@ -43,13 +43,13 @@ For Docker source code build, we can follow the instructions in this document:
 
 	* clone source code from VM, at docker source code directory,
 
-		$ git clone https://github.com/golang/tools.git
+			$ git clone https://github.com/golang/tools.git
 
 	* vi Dockerfile, and modify it with following lines,
 
-		<pre>#RUN go get golang.org/x/tools/cmd/cover
-		ADD tools /go/src/golang.org/x/tools
-		RUN go install golang.org/x/tools/cmd/cover</pre>
+			#RUN go get golang.org/x/tools/cmd/cover
+			ADD tools /go/src/golang.org/x/tools
+			RUN go install golang.org/x/tools/cmd/cover
 
 4. golang.org could bot be accessed outside the company
 
