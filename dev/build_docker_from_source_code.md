@@ -54,3 +54,5 @@ For Docker source code build, we can follow the instructions in this document:
 4. golang.org could bot be accessed outside the company
 
 	This is China firewall problem, please use VPN to work around it. We may need use -x option for curl https proxy in Dockerfile.
+
+	Or you can manage download go source code from mirror website, and uses ADD and RUN commands in Dockerfile like workaround 3 above.
