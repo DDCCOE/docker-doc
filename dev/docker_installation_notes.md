@@ -2,7 +2,7 @@
 
 ## Official document
 
-To install docker in your linux vm, just follow the instructions from the document:
+To install docker in your linux vm, just follow the instructions from the official document:
 
 [official website of docker](http://docs.docker.com/installation/)
 
