@@ -1,0 +1,5 @@
+To install docker in your linux vm, just follow the instructions from the official website of docker.
+
+For example, to install docker in centos7, just follow http://docs.docker.com/installation/centos/
+
+The Chinese version: http://dockerpool.com/static/books/docker_practice/install/centos.html
