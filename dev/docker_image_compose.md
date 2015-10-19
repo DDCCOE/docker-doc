@@ -4,9 +4,9 @@
 
 1. pull images
 
-[tant3@dd_docker test2]$ sudo docker pull centos
+			[tant3@dd_docker test2]$ sudo docker pull centos
 
-Note: because of firewall in company, docker hub is prevented from pulling images. We may need find a local image and load it.
+			Note: because of firewall in company, docker hub is prevented from pulling images. We may need find a 			local image and load it.
 
 2. list current images
 
