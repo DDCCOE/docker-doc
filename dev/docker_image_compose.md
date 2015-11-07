@@ -159,6 +159,7 @@ Now let us set up the apache server.
                httpd_web_1   httpd-foreground   Up      0.0.0.0:8080->80/tcp
 
     We can use curl to visit the server.
+
             $ curl 172.17.0.59
             hello docker compose!
 
