@@ -151,6 +151,11 @@ Now let us set up the apache server.
              web_1 | [Sat Nov 07 15:12:04.635115 2015] [mpm_event:notice] [pid 1:tid 139631174924160] AH00489: Apache/2.4.17 (Unix) configured -- resuming normal operations
              web_1 | [Sat Nov 07 15:12:04.636322 2015] [core:notice] [pid 1:tid 139631174924160] AH00094: Command line: 'httpd -D FOREGROUND'
 
+*Note that, before this command, please switch root with following:
+            $ su root       // Just open an interactive shell with root, don't use su - or su - root
+ error message like:
+            ERROR: Couldn't connect to Docker daemon at http+docker://localunixsocket - is it running?
+
 6. Check our service.
 
             $ docker-compose ps
