@@ -1,6 +1,6 @@
 Create a docker base image has become a much easier work with the scripts support by docker.
 But it is still a little tricky to create a CentOS 5 docker base image because those scripts cannot work well with CentOS5.
-Here are two useable was.
+Here are two useable ways.
 
 ## Use febootstrap.
 
@@ -22,6 +22,7 @@ Here are two useable was.
 5. Then transfer the image to a host with docker engine.
 
 6. create docker image.
+
             # mount root /mnt
             # cd /mnt
             # tar -c . | docker import - centos5base
